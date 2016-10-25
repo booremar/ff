@@ -1,1 +1,4 @@
-1) ffmpeg -i in.avi out.avi
+1) -i in.avi out.avi
+2)              -i in.avi -r 24 out.avi 
+3) -ss 00:00:01 -i in.avi -to 00:00:02                                           out.avi
+                                                  -crf 4...60   -vf scale=720x400
